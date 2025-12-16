@@ -67,20 +67,23 @@
         }
     </style>
 </head>
-<body class="bg-gray-100 text-text-dark font-sans antialiased min-h-screen p-4 sm:p-8">
+<body class="bg-gray-100 text-text-dark font-sans antialiased min-h-screen p-4 md:p-12">
 
-    <main class="max-w-6xl mx-auto bg-white p-6 sm:p-10 rounded-xl shadow-2xl border-t-8 border-agency-primary mt-4 sm:mt-10">
+    <!-- Adjusted main container: Removed the harsh top border and reduced outer margin to integrate better with the page background -->
+    <main class="max-w-6xl mx-auto bg-white p-6 sm:p-10 rounded-xl shadow-xl mt-4 sm:mt-8">
 
         <!-- Header -->
-        <header class="mb-10 text-center">
+        <header class="mb-12 text-center">
             <h1 class="text-5xl font-extrabold text-agency-primary mb-3 leading-tight">Case Study Portfolio</h1>
-            <p class="text-xl text-gray-600 border-b pb-4">
+            <!-- Border is now slightly softer and below the subtitle -->
+            <p class="text-xl text-gray-600 border-b border-gray-200 pb-5">
                 Demonstration of Strategic Impact in Automation, Growth Hacking, Generative SEO, and Data Strategy.
             </p>
         </header>
 
         <!-- Dynamic Case Study Grid (Reverse Order: 4, 3, 2, 1) -->
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Increased gap for better separation -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-10">
 
             <!-- Card 4: Data Strategy (Now First) -->
             <a href="case-study-4.html" class="case-study-card block bg-white p-6 rounded-xl shadow-md">
@@ -165,7 +168,7 @@
         </section>
 
         <!-- Footer -->
-        <footer class="text-center text-xs text-gray-500 mt-12 pt-4 border-t border-gray-200">
+        <footer class="text-center text-xs text-gray-500 mt-16 pt-6 border-t border-gray-200">
             &copy; 2025 Juan Gomez
         </footer>
 
